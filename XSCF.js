@@ -411,8 +411,8 @@ function XioScript(version){
 				'<div id="xfTitle" class="xfTitle">XioConsole</div>'+				
 				'<div id="xfDebug"></div>'+
             '</div>';		
-
-        $("#topblock").append(menuHTML);		
+	    
+        $("div.metro_header").append(menuHTML);		
 				
 		//Build the toggles
 		rows = [];
