@@ -177,8 +177,8 @@ XSEL.push({
 			}
 			
 			html += "</table>";
-			
-			$("#topblock, #headerWithSeparator").append(html); 
+
+            $("div.metro_header").append(html);
 			
 		}
 		
