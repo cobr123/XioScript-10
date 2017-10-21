@@ -530,7 +530,7 @@ function XioScript(version){
 	var xforce = false; //force stop
 
     //If we are on the main page, enable the XF menu
-    if(new RegExp("\/.*\/main\/company\/view\/[0-9]+\/unit_list$").test(document.URL)){
+    if(new RegExp("\/.*\/main\/company\/view\/[0-9]+(\/unit_list)?$").test(document.URL)){
         MenuButton();
     }
 	
