@@ -412,7 +412,7 @@ function XioScript(version){
 				'<div id="xfDebug"></div>'+
             '</div>';		
 	    
-        $("div.metro_header").append(menuHTML);		
+        $("div.metro_header").after(menuHTML);		
 				
 		//Build the toggles
 		rows = [];
